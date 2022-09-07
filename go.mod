@@ -16,3 +16,5 @@ require (
 	github.com/google/renameio/v2 v2.0.0 // indirect
 	github.com/mdlayher/watchdog v0.0.0-20201005150459-8bdc4f41966b // indirect
 )
+
+replace github.com/gokrazy/fbstatus => /Users/acj/proj/fbstatus

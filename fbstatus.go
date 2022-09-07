@@ -152,7 +152,7 @@ func fbstatus() error {
 		return err
 	}
 
-	size := float64(16)
+	size := float64(32)
 	scaleFactor := math.Floor(float64(w) / 1024)
 	log.Printf("font scale factor: %.f", scaleFactor)
 	size *= scaleFactor
